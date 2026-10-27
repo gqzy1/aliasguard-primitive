@@ -1,0 +1,11 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0xc27b9497801E01BAeB02B294c6124724e0333da9",
+  "owner": "0xB560a20855Fafb5110824ef1bD3E2d1EBAB0EF1e",
+  "deployment_transaction": "0x08585772de936b5f1d4d5c9fb63c3d87d83ffedfa06e6a702b33ade3d7684e49",
+  "source_sha256": "5986b7cee7637323c21dbd4dd451d601dbde9c699d571576926e6838412ad673",
+  "version": "aliasguard-1",
+  "verified_example": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e:equipment-explicit"
+}

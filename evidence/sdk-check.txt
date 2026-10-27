@@ -1,0 +1,1 @@
+PASS: official SDK storage, calldata, callback serialization and lifecycle; model mocked; GenVM v0.2.16 artifact and pinned py-genlayer runner.

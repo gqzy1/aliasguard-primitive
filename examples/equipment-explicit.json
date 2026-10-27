@@ -1,0 +1,8 @@
+{
+  "scope": "Synthetic Workshop equipment catalogue. A Workshop asset tag is a unique identifier for ONE individual physical object, never a model or batch. The SAME tag means the SAME physical object. DIFFERENT Workshop tag values mean DIFFERENT physical objects.",
+  "entries": [
+    "North projector: the individual physical object whose unique Workshop asset tag is W-104.",
+    "Hall beamer: another name for the individual physical object whose unique Workshop asset tag is W-104.",
+    "Spare projector: the individual physical object whose unique Workshop asset tag is W-209."
+  ]
+}

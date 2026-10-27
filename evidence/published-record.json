@@ -1,0 +1,58 @@
+{
+  "assessment_hash": "fcc3ff1311db94e993c097a940b7018fd9cbfaf8c2613fef772ff1320c326adc",
+  "certificate": {
+    "assessment_hash": "fcc3ff1311db94e993c097a940b7018fd9cbfaf8c2613fef772ff1320c326adc",
+    "groups": [
+      {
+        "canonical": 0,
+        "members": [
+          0,
+          1
+        ]
+      },
+      {
+        "canonical": 2,
+        "members": [
+          2
+        ]
+      }
+    ],
+    "input_hash": "cede404eb38b1c8108fed4c5197f8fd6dc1368ac857fd7067922ec44bec1dc4e",
+    "record_id": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e:equipment-explicit",
+    "version": "aliasguard-1"
+  },
+  "certificate_hash": "bfa0e2bf9f5caf0d8d53924dc9863478dd7fd04f190deab74adf1eaac8505eda",
+  "id": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e:equipment-explicit",
+  "input": {
+    "entries": [
+      "North projector: the individual physical object whose unique Workshop asset tag is W-104.",
+      "Hall beamer: another name for the individual physical object whose unique Workshop asset tag is W-104.",
+      "Spare projector: the individual physical object whose unique Workshop asset tag is W-209."
+    ],
+    "scope": "Synthetic Workshop equipment catalogue. A Workshop asset tag is a unique identifier for ONE individual physical object, never a model or batch. The SAME tag means the SAME physical object. DIFFERENT Workshop tag values mean DIFFERENT physical objects."
+  },
+  "input_hash": "cede404eb38b1c8108fed4c5197f8fd6dc1368ac857fd7067922ec44bec1dc4e",
+  "owner": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e",
+  "proof": {
+    "components": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "conflicts": [],
+    "inferred": [],
+    "state": "READY",
+    "unresolved": []
+  },
+  "relations": [
+    "SAME",
+    "DIFFERENT",
+    "DIFFERENT"
+  ],
+  "revision": 2,
+  "state": "PUBLISHED"
+}

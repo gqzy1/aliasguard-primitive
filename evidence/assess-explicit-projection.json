@@ -1,0 +1,66 @@
+{
+  "capture": "SDK response projection; full response is in raw-receipts.json.gz",
+  "hash": "0xeb208b760c73b591fa99600577842ab7a4b1e0fce53a43c3c52b68f1359d642f",
+  "sender": "0xB560a20855Fafb5110824ef1bD3E2d1EBAB0EF1e",
+  "recipient": "0xc27b9497801E01BAeB02B294c6124724e0333da9",
+  "status": "FINALIZED",
+  "consensus_result": "MAJORITY_AGREE",
+  "execution_mode": "NORMAL",
+  "leader_only": false,
+  "rotations": null,
+  "configured_validators": null,
+  "votes": {
+    "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+    "0x5e84e17266a193077728229751aC8A1dD24be146": "idle",
+    "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "disagree",
+    "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree",
+    "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "agree"
+  },
+  "leader_executions": [
+    {
+      "mode": "leader",
+      "execution_result": "SUCCESS",
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "\"{\\\"assessment_hash\\\":\\\"fcc3ff1311db94e993c097a940b7018fd9cbfaf8c2613fef772ff1320c326adc\\\",\\\"id\\\":\\\"0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e:equipment-explicit\\\",\\\"input\\\":{\\\"entries\\\":[\\\"North projector: the individual physical object whose unique Workshop asset tag is W-104.\\\",\\\"Hall beamer: another name for the individual physical object whose unique Workshop asset tag is W-104.\\\",\\\"Spare projector: the individual physical object whose unique Workshop asset tag is W-209.\\\"],\\\"scope\\\":\\\"Synthetic Workshop equipment catalogue. A Workshop asset tag is a unique identifier for ONE individual physical object, never a model or batch. The SAME tag means the SAME physical object. DIFFERENT Workshop tag values mean DIFFERENT physical objects.\\\"},\\\"input_hash\\\":\\\"cede404eb38b1c8108fed4c5197f8fd6dc1368ac857fd7067922ec44bec1dc4e\\\",\\\"owner\\\":\\\"0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e\\\",\\\"proof\\\":{\\\"components\\\":[[0,1],[2]],\\\"conflicts\\\":[],\\\"inferred\\\":[],\\\"state\\\":\\\"READY\\\",\\\"unresolved\\\":[]},\\\"relations\\\":[\\\"SAME\\\",\\\"DIFFERENT\\\",\\\"DIFFERENT\\\"],\\\"revision\\\":1,\\\"state\\\":\\\"READY\\\"}\""
+        }
+      },
+      "eq_outputs": {
+        "0": {
+          "status": "return",
+          "payload": {
+            "readable": "{\"relations\":[\"SAME\",\"DIFFERENT\",\"DIFFERENT\",]}"
+          }
+        }
+      },
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      }
+    },
+    {
+      "mode": "validator",
+      "execution_result": "ERROR",
+      "result": {
+        "status": "contract_error",
+        "payload": "idle"
+      },
+      "eq_outputs": null,
+      "genvm_result": {
+        "stderr": "Validator execution cancelled after quorum",
+        "stdout": "",
+        "raw_error": {
+          "fatal": false,
+          "causes": [
+            "VALIDATOR_QUORUM_REACHED"
+          ]
+        },
+        "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+      }
+    }
+  ]
+}

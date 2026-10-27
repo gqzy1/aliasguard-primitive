@@ -1,0 +1,15 @@
+{
+  "id": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e:equipment",
+  "input": {
+    "entries": [
+      "The entry named North projector identifies the individual projector with Workshop asset tag W-104.",
+      "The entry named Hall beamer is an alias for the individual projector with Workshop asset tag W-104.",
+      "The entry named Spare projector identifies a separate individual projector with Workshop asset tag W-209."
+    ],
+    "scope": "Fictional workshop equipment catalogue. Asset tags in the Workshop namespace uniquely identify individual physical objects, not models or batches."
+  },
+  "input_hash": "08e2aeaf2f03e69c3a5b50a27d33a73a4e1e19b177a3b42ea0ea8d036a049c89",
+  "owner": "0xb560a20855fafb5110824ef1bd3e2d1ebab0ef1e",
+  "revision": 0,
+  "state": "SEALED"
+}

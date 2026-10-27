@@ -1,0 +1,20 @@
+{
+  "deploy": {
+    "hash": "0x08585772de936b5f1d4d5c9fb63c3d87d83ffedfa06e6a702b33ade3d7684e49"
+  },
+  "seal": {
+    "hash": "0x864b2372210e01c6b0c0b8b030ca94013c212b80d85b9203f2ed7a0ebdf96ae0"
+  },
+  "assess": {
+    "hash": "0x60fff431c1a101039d70c4c4a06db071fb072635e7e27c0ad439dd22a7e2f542"
+  },
+  "seal-explicit": {
+    "hash": "0x8587e67874365c1c64dc9a02de32857727ce03bcea6685f6a12343581677cf05"
+  },
+  "assess-explicit": {
+    "hash": "0xeb208b760c73b591fa99600577842ab7a4b1e0fce53a43c3c52b68f1359d642f"
+  },
+  "publish-explicit": {
+    "hash": "0xb8ecb9c6638fe8be06b0007070c3ca801a551e1bdd741339e69433b2beb2ca89"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-27T03:12:22.857Z",
+  "chain_id": "0xf22f",
+  "gas_price": "0x0",
+  "owner": "0xB560a20855Fafb5110824ef1bD3E2d1EBAB0EF1e",
+  "balance": "0",
+  "sdk": "genlayer-js@1.1.8",
+  "source_sha256": "5986b7cee7637323c21dbd4dd451d601dbde9c699d571576926e6838412ad673",
+  "leader_only": false,
+  "consensus_max_rotations": 0
+}

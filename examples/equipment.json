@@ -1,0 +1,8 @@
+{
+  "scope": "Fictional workshop equipment catalogue. Asset tags in the Workshop namespace uniquely identify individual physical objects, not models or batches.",
+  "entries": [
+    "The entry named North projector identifies the individual projector with Workshop asset tag W-104.",
+    "The entry named Hall beamer is an alias for the individual projector with Workshop asset tag W-104.",
+    "The entry named Spare projector identifies a separate individual projector with Workshop asset tag W-209."
+  ]
+}

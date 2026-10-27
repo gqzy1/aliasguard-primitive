@@ -1,0 +1,8 @@
+{
+  "scope": "Synthetic equipment identity catalogue. Alpha, Beta and Gamma are distinct tag namespaces. Within EACH namespace, a tag uniquely identifies an individual physical object; two different tags in that same namespace identify different objects. One object may have tags from several namespaces.",
+  "entries": [
+    "Object description A: its unique individual Alpha tag is A-11 and its unique individual Beta tag is B-21. No Gamma tag is stated.",
+    "Object description B: its unique individual Alpha tag is A-11 and its unique individual Gamma tag is G-31. No Beta tag is stated.",
+    "Object description C: its unique individual Beta tag is B-22 and its unique individual Gamma tag is G-31. No Alpha tag is stated."
+  ]
+}

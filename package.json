@@ -1,0 +1,1 @@
+{"name":"aliasguard-primitive","private":true,"type":"module","dependencies":{"genlayer-js":"1.1.8"},"scripts":{"test":"python -m unittest discover -s tests -v","verify":"python tools/verify_record.py evidence/published-record.json"}}

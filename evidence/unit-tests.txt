@@ -1,0 +1,32 @@
+test_all_729_four_entry_graphs (test_alias_guard.Algorithm.test_all_729_four_entry_graphs) ... ok
+test_canonical_shortest_path (test_alias_guard.Algorithm.test_canonical_shortest_path) ... ok
+test_contradiction_path (test_alias_guard.Algorithm.test_contradiction_path) ... ok
+test_cross_group_unknown_blocks (test_alias_guard.Algorithm.test_cross_group_unknown_blocks) ... ok
+test_isolated_and_maximum_bounds (test_alias_guard.Algorithm.test_isolated_and_maximum_bounds) ... ok
+test_unknown_inside_closure_is_explicit_inference (test_alias_guard.Algorithm.test_unknown_inside_closure_is_explicit_inference) ... ok
+test_bad_slug (test_alias_guard.Lifecycle.test_bad_slug) ... ok
+test_complete_lifecycle (test_alias_guard.Lifecycle.test_complete_lifecycle) ... ok
+test_conflict_cannot_publish (test_alias_guard.Lifecycle.test_conflict_cannot_publish) ... ok
+test_failed_consensus_preserves_record (test_alias_guard.Lifecycle.test_failed_consensus_preserves_record) ... ok
+test_idempotent_seal_and_conflict (test_alias_guard.Lifecycle.test_idempotent_seal_and_conflict) ... ok
+test_no_publish_before_consensus (test_alias_guard.Lifecycle.test_no_publish_before_consensus) ... ok
+test_nonexistent (test_alias_guard.Lifecycle.test_nonexistent) ... ok
+test_owner_isolation (test_alias_guard.Lifecycle.test_owner_isolation) ... ok
+test_quota (test_alias_guard.Lifecycle.test_quota) ... ok
+test_revision (test_alias_guard.Lifecycle.test_revision) ... ok
+test_tampered_proof (test_alias_guard.Lifecycle.test_tampered_proof) ... ok
+test_terminal_and_one_assessment (test_alias_guard.Lifecycle.test_terminal_and_one_assessment) ... ok
+test_unresolved_cannot_publish (test_alias_guard.Lifecycle.test_unresolved_cannot_publish) ... ok
+test_validator_rejects_changed_pair (test_alias_guard.Lifecycle.test_validator_rejects_changed_pair) ... ok
+test_duplicate_json_keys (test_alias_guard.Validation.test_duplicate_json_keys) ... ok
+test_entry_bounds_and_duplicates (test_alias_guard.Validation.test_entry_bounds_and_duplicates) ... ok
+test_equivalence_independent_all_pairs (test_alias_guard.Validation.test_equivalence_independent_all_pairs) ... ok
+test_errors_and_nonreturn_fail_closed (test_alias_guard.Validation.test_errors_and_nonreturn_fail_closed) ... ok
+test_invalid_strings (test_alias_guard.Validation.test_invalid_strings) ... ok
+test_model_schema (test_alias_guard.Validation.test_model_schema) ... ok
+test_payload (test_alias_guard.Validation.test_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.021s
+
+OK
